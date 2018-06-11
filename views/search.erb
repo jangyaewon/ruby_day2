@@ -1,0 +1,23 @@
+<p>----form action을 이용한 방법----</p>
+<form action="https://search.naver.com/search.naver">
+    <input type="text" name="query" placeholder="네이버 검색창">
+    <input type="submit">
+</form>
+
+<form action="https://www.google.com/search">
+    <input type="text" name="q" placeholder="구글 검색창">
+    <input type="submit">
+</form>
+
+<p>----form method POST를 이용한 방법----</p>
+<form method="POST">
+    <input type="hidden" name="engine" value="naver">
+    <input type="text" name="query" placeholder="네이버 검색">
+    <input type="submit" value="검색">
+</form>
+
+<form method="POST">
+    <input type="hidden" name="engine" value="google">
+    <input type="text" name="q" placeholder="구글 검색">
+    <input type="submit" value="검색">
+</form>
